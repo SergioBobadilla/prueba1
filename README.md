@@ -15,7 +15,9 @@ Luego de descargar los achivos desde el repositorio dirijase a carpeta raiz del 
 
     $ mvn clean package
     
-Para correr el programa asegurese de que el servicio Generador_Datos_Desafio_Uno esté corriendo en su máquina local.
+Para correr el programa asegurese de que el servicio Generador_Datos_Desafio_Uno esté corriendo en su máquina local y ejecute el siguiente comando:
+
+    java -jar target/desafioRest-0.0.1-SNAPSHOT.jar
 
 
 Nota: Debe estar disponible el puerto 9090 en el PC donde se ejecute esta solución
